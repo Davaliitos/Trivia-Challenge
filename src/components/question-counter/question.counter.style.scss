@@ -1,0 +1,15 @@
+.question-counter{
+    position: relative;
+    top: 520px;
+    font-size: 2em;
+    margin: 0 auto;
+}
+
+
+@media only screen and (max-width: 767px) and (orientation: portrait) {
+    .question-counter{
+        top: 320px;
+        font-size: 2em;
+        margin: 0 auto;
+    }
+}

@@ -1,0 +1,19 @@
+.question-card{
+    width: 90%;
+    height: 80%;
+    padding-top: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: grid;
+}
+
+.question-card__answers-options{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 767px){
+    .question-card{
+        padding-top: 15px;
+    }
+}

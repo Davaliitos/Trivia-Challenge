@@ -1,0 +1,93 @@
+.homepage{
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-bottom: 100px;
+}
+
+.homepage__title{
+    font-size: 4rem;
+}
+
+.homepage__button{
+    width: 200px;
+    height: 100px;
+}
+
+
+
+/*
+    Smaller phones
+*/
+@media only screen and (max-width: 479px) and (orientation: portrait){
+    .homepage__title{
+        font-size: 2em;
+    }
+    .homepage__button{
+        width: 100px;
+        height: 50px;
+        font-size: 20px
+    }
+}
+
+@media only screen and (max-width: 479px) and (orientation: landscape){
+    .homepage__title{
+        font-size: 2em;
+    }
+    .homepage__button{
+        width: 100px;
+        height: 50px;
+        font-size: 20px
+    }
+}
+
+/*
+    Small devices and most phones
+*/
+@media only screen and (min-width: 480px) and (max-width: 767px) and (orientation: portrait) {
+    .homepage__title{
+        font-size: 2.5em;
+    }
+    .homepage__button{
+        width: 100px;
+        height: 50px;
+        font-size: 20px
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px)  and (orientation:landscape){
+    .homepage__title{
+        font-size: 1.5em;
+    }
+    .homepage__button{
+        width: 100px;
+        height: 50px;
+        font-size: 20px
+    }
+}
+
+/*
+    Most tablets
+*/
+@media only screen and (min-width: 768px) and (max-width: 1200px) and (orientation: portrait) {
+    .homepage__title{
+        font-size: 3em;
+    }
+    .homepage__button{
+        width: 100px;
+        height: 50px;
+        font-size: 20px
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1200px) and (orientation:landscape){
+    .homepage__title{
+        font-size: 2em;
+    }
+    .homepage__button{
+        width: 100px;
+        height: 50px;
+        font-size: 20px
+    }
+}
+

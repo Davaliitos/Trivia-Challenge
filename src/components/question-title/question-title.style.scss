@@ -1,0 +1,96 @@
+.question-title{
+    height: 220px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .question-title__card{
+        height: 220px;
+        width: 100%;
+        display: -webkit-box;
+        display:-ms-flexbox;
+        display:flex;
+        -webkit-box-orient:vertical;
+        -webkit-box-direction:normal;
+        -ms-flex-direction:column;
+        flex-direction:column;
+        position:relative;
+        border-radius:16px;
+        overflow:hidden;
+
+        .question-tilte__card_image__icon{
+            height:60px;
+            width:100%;
+            position: relative;
+            top:0px;
+            background-color: black;
+        }
+
+        .question-title__card__description{
+            background-color: #FAFAFC;
+            height:160px;
+            width:100%;
+            position:absolute;
+            bottom:0em;
+            -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+            -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+            transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+            text-align:center;
+
+            h5{
+                padding-top: 10px;
+                margin: 0px;
+                font-size: 16px;
+                font-weight: 700;
+                color: black;
+                font-family: 'Bitter', serif;
+            }
+            p
+            {
+                font-size: 18px;
+                color: black;
+                font-family: 'Bitter', serif;
+                margin-left: 5%;
+                margin-right: 5%;
+            }
+            
+
+        }
+    }
+
+
+}
+
+.question-card-category-icon{
+    height: 50px;
+}
+
+
+
+
+@media only screen and (max-width: 767px){
+    .question-title{
+        height: 160px;
+        
+        .question-title__card{
+            height: 150px;
+
+            .question-tilte__card_image{
+                height: 40px;
+            }
+
+            .question-title__card__description{
+                height: 110px;
+                h5{
+                    font-size: 14px;
+                }
+                p{
+                    font-size: 12px;
+                    margin-top: 0px;
+                }
+            }
+
+        }
+    }
+}
